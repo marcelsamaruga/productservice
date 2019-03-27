@@ -1,0 +1,9 @@
+applications:
+- name: product-service
+  path: ./build/libs/productservice-0.0.1-SNAPSHOT.jar
+  routes:
+  - route: product-service.apps.pcf-aws.com
+  memory: 1G
+  instances: 1
+  services:
+  - product-service-database

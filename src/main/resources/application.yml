@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: product-service
+  jpa:
+    hibernate:
+      ddl-auto: validate
+
+
+server:
+  port: 8001
